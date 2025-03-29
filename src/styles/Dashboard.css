@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=Marko+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f7fa;
+  color: #333;
+  padding: 20px;
+}
+
+.dashboard-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.logout-btn {
+  background-color: #e74c3c;
+  color: white;
+  font-weight: bold;
+  border: none;
+  width: 15%;
+  /* padding: 10px 20px; */
+  border-radius: 5px;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+.logout-btn:hover {
+  background-color: #c0392b;
+  cursor: pointer;
+}
+
+h1 {
+  text-align: center;
+  color: rgb(87, 85, 106);
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  font-size: 2rem;
+  font-family: "Marko One", serif;
+  font-weight: 400;
+  font-style: normal;
+
+}
+
+
+.input-section {
+  background-color: #eeeeee;
+  padding: 20px;
+  box-shadow: 0 4px 5px rgba(0, 0, 0, 0.1);
+  margin-bottom: 30px;
+  display: flex;
+  flex-direction: column;
+  margin-left: auto; 
+   margin-right: auto; 
+}
+
+.input-section label {
+  margin-bottom: 8px;
+  font-weight: bold;
+  font-size: 17px;
+  color: #555;
+}
+
+.input-section select,
+.input-section input,
+.input-section button {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 15px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 15px;
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+
+}
+
+#add-btn{
+  background-color: #628eac;
+  color: white;
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+#add-btn:hover {
+  background-color: rgb(103, 99, 99);
+}
+
+
+.expenses-list {
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: Arial, sans-serif; 
+  
+
+}
+
+.expenses-list h2 {
+  text-align: center;
+  color: #2c3e50;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  font-size: 1.5rem;
+  font-family: "Marko One", serif;
+  font-weight: 400;
+  font-style: normal;
+
+
+}
+
+
+table {
+  width: 100%;
+  border-collapse: collapse; 
+  margin-bottom: 20px;
+}
+
+thead th {
+  background-color: rgb(213, 212, 212);
+  color: #333;
+  font-weight: bold;
+  text-transform: uppercase;
+  padding: 12px;
+}
+
+th, td {
+  padding: 12px;
+  text-align: center;
+  border: 1px solid #ddd;
+}
+
+tfoot td {
+  font-weight: bold;
+  font-size: 1.1rem;
+}
+
+td button {
+  color: #fff;
+  font-weight: bold;
+  background-color: rgb(207, 18, 18);
+}
+
+
+
+@media (max-width: 768px) {
+  .input-section, .expenses-list {
+      max-width: 100%;
+      padding: 15px;
+  }
+
+  .expenses-list table {
+      font-size: 14px;
+  }
+}

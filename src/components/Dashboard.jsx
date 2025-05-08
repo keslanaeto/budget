@@ -78,7 +78,7 @@ const Dashboard = () => {
           <option value="Food & Beverage">Food & Beverage</option>
           <option value="Rent">Rent</option>
           <option value="Transportation">Transportation</option>
-          <option value="Internet">Internet</option>
+          <option value="Internet">Internet </option>
           <option value="Gadgets">Gadgets</option>
           <option value="Kitchen">Kitchen</option>
           <option value="Drinks">Club</option>
